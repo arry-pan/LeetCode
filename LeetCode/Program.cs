@@ -11,12 +11,24 @@ namespace LeetCode
     {
         static void Main(string[] args)
         {
-            string s = "abcacbb";
-            question3 q3 = new question3();
-            int r = q3.LengthOfLongestSubstring(s);
+            question9 questioin = new question9();
 
-            Console.WriteLine(string.Format("{0}测试结果：{1}", s, r));
-            Console.ReadKey();
+            //int x1 = -2147483648;
+            //Console.WriteLine(string.Format("{0} 结果：{1}", x1, questioin.IsPalindrome(x1)));
+
+            //int x2 = 1234554321;
+            //Console.WriteLine(string.Format("{0} 结果：{1}", x2, questioin.IsPalindrome(x2)));
+
+            int x3 = 131;
+            Console.WriteLine(string.Format("{0} 结果：{1}", x3, questioin.IsPalindrome(x3)));
+
+            int x5 = 20;
+            Console.WriteLine(string.Format("{0} 结果：{1}", x5, questioin.IsPalindrome(x5)));
+
+            int x4 = 0;
+            Console.WriteLine(string.Format("{0} 结果：{1}", x4, questioin.IsPalindrome(x4)));
+
+            Console.ReadLine();
         }
     }
 }
