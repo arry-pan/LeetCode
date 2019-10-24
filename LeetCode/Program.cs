@@ -19,15 +19,17 @@ namespace LeetCode
             //int x2 = 1234554321;
             //Console.WriteLine(string.Format("{0} 结果：{1}", x2, questioin.IsPalindrome(x2)));
 
-            int x3 = 131;
-            Console.WriteLine(string.Format("{0} 结果：{1}", x3, questioin.IsPalindrome(x3)));
+            //int x3 = 131;
+            //Console.WriteLine(string.Format("{0} 结果：{1}", x3, questioin.IsPalindrome(x3)));
 
-            int x5 = 20;
-            Console.WriteLine(string.Format("{0} 结果：{1}", x5, questioin.IsPalindrome(x5)));
+            //int x5 = 20;
+            //Console.WriteLine(string.Format("{0} 结果：{1}", x5, questioin.IsPalindrome(x5)));
 
-            int x4 = 0;
-            Console.WriteLine(string.Format("{0} 结果：{1}", x4, questioin.IsPalindrome(x4)));
+            //int x4 = 0;
+            //Console.WriteLine(string.Format("{0} 结果：{1}", x4, questioin.IsPalindrome(x4)));
 
+            LinqSudokuSolver.Test();
+            
             Console.ReadLine();
         }
     }
