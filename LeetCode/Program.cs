@@ -11,7 +11,7 @@ namespace LeetCode
     {
         static void Main(string[] args)
         {
-            question9 questioin = new question9();
+            //question09 questioin = new question09();
 
             //int x1 = -2147483648;
             //Console.WriteLine(string.Format("{0} 结果：{1}", x1, questioin.IsPalindrome(x1)));

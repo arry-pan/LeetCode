@@ -30,7 +30,7 @@ namespace Algorithms
     /// <summary>
     /// 4. 寻找两个有序数组的中位数
     /// </summary>
-    public class question4
+    public class question04
     {
         public double FindMedianSortedArrays(int[] nums1, int[] nums2)
         {

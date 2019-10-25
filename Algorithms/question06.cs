@@ -9,7 +9,7 @@ namespace Algorithms
     /// <summary>
     /// 6. Z 字形变换
     /// </summary>
-    public class question6
+    public class question06
     {
 
         /*

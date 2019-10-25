@@ -10,7 +10,7 @@ namespace Algorithms
     /// <summary>
     /// 8. 字符串转换整数 (atoi)
     /// </summary>
-    public class question8
+    public class question08
     {
         public static int MyAtoi(string str)
         {

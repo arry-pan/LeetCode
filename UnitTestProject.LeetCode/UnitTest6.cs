@@ -13,7 +13,7 @@ namespace UnitTestProject.LeetCode
             string s = "LEETCODEISHIRING";
             int numRows = 3;
 
-            string act = question6.Convert3(s, numRows);
+            string act = question06.Convert3(s, numRows);
             string except = "LCIRETOESIIGEDHN";
             Assert.AreEqual(except, act);
         }
@@ -24,7 +24,7 @@ namespace UnitTestProject.LeetCode
             string s = "LEETCODEISHIRING";
             int numRows = 4;
 
-            string act = question6.Convert3(s, numRows);
+            string act = question06.Convert3(s, numRows);
             string except = "LDREOEIIECIHNTSG";
             Assert.AreEqual(except, act);
         }
@@ -35,7 +35,7 @@ namespace UnitTestProject.LeetCode
             string s = "LECDF";
             int numRows = 2;
 
-            string act = question6.Convert3(s, numRows);
+            string act = question06.Convert3(s, numRows);
             string except = "LCFED";
             Assert.AreEqual(except, act);
         }

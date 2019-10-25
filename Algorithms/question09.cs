@@ -9,7 +9,7 @@ namespace Algorithms
     /// <summary>
     /// 9.回文数
     /// </summary>
-    public class question9
+    public class question09
     {
         /*
          判断一个整数是否是回文数。回文数是指正序（从左向右）和倒序（从右向左）读都是一样的整数。

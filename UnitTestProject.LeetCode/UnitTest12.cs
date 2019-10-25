@@ -5,45 +5,45 @@ using Algorithms;
 namespace UnitTestProject.LeetCode
 {
     [TestClass]
-    public class UnitTest8
+    public class UnitTest12
     {
         [TestMethod]
         public void TestMethod1()
         {
-            string s = "  0000000000012345678";
+            int num = 4;
 
-            int act = question08.MyAtoi2(s);
-            int except = 12345678;
+            string act = question12.IntToRoman2(num);
+           
+            string except = "IV";
             Assert.AreEqual(except, act);
         }
 
         [TestMethod]
         public void TestMethod2()
         {
-            string s = "  + 04500E2323ISHIRING";
-
-            int act = question08.MyAtoi2(s);
-            int except = 0;
+            int num = 98;
+            string act = question12.IntToRoman2(num);
+            string except = "XCVIII";
             Assert.AreEqual(except, act);
         }
 
         [TestMethod]
         public void TestMethod3()
         {
-            string s = "   - 04 2  ";
+            int num = 954;
 
-            int act = question08.MyAtoi2(s);
-            int except = 0;
+            string act = question12.IntToRoman2(num);
+            string except = "CMLIV";
             Assert.AreEqual(except, act);
         }
 
         [TestMethod]
         public void TestMethod4()
         {
-            string s = "+2147483648L7EETCODEISHIRING";
+            int num = 3994;
 
-            int act = question08.MyAtoi2(s);
-            int except = 2147483647;
+            string act = question12.IntToRoman2(num);
+            string except = "MMMCMXCIV";
             Assert.AreEqual(except, act);
         }
     }
