@@ -5,35 +5,35 @@ using Algorithms;
 namespace UnitTestProject.LeetCode
 {
     [TestClass]
-    public class UnitTest11
+    public class UnitTest14
     {
         [TestMethod]
         public void TestMethod1()
         {
-            int[] a = new int[] { 1, 8, 6, 2, 5, 4, 8, 3, 7 };
-            int act = question0011.MaxArea3(a);
+            string[] s = new string[] {"flower","flow","flight"};
+            string act = question0014.LongestCommonPrefix(s);
 
-            int except = 49;
+            string except = "fl";
             Assert.AreEqual(except, act);
         }
 
         [TestMethod]
         public void TestMethod2()
         {
-            int[] a = new int[] { 1, 8 };
-            int act = question0011.MaxArea3(a);
+            string[] s = new string[] { "dog", "racecar", "car" };
+            string act = question0014.LongestCommonPrefix(s);
 
-            int except = 1;
+            string except = "";
             Assert.AreEqual(except, act);
         }
 
         [TestMethod]
         public void TestMethod3()
         {
-            int[] a = new int[] { 1, 7, 6, 2, 5, 4, 8, 8, 6 };
-            int act = question0011.MaxArea3(a);
+            string[] s = new string[] { "aa", "a" };
+            string act = question0014.LongestCommonPrefix(s);
 
-            int except = 42;
+            string except = "a";
             Assert.AreEqual(except, act);
         }
     }

@@ -32,7 +32,7 @@ namespace Algorithms
     /// 遍历字符串，每次以 i 值记录，不回溯 i 值，用flag记录遍历过程找到的重复的字符的位置。
     /// 如果遇到重复字符，i-flag 即为子串长度，此时flag重新定位到子串中重复字符的位置，i 继续往后遍历。
     /// 这里length跟result记录长度。
-    public class question03
+    public class question0003
     {
         public int LengthOfLongestSubstring(string s)
         {

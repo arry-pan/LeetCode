@@ -12,7 +12,7 @@ namespace UnitTestProject.LeetCode
         {
             string param = "aabcabcbb";
 
-            var act = new question03().LengthOfLongestSubstring(param);
+            var act = new question0003().LengthOfLongestSubstring(param);
             var except = 3;
 
             Assert.IsTrue(act == except);

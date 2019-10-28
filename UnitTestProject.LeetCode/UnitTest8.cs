@@ -12,7 +12,7 @@ namespace UnitTestProject.LeetCode
         {
             string s = "  0000000000012345678";
 
-            int act = question08.MyAtoi2(s);
+            int act = question0008.MyAtoi2(s);
             int except = 12345678;
             Assert.AreEqual(except, act);
         }
@@ -22,7 +22,7 @@ namespace UnitTestProject.LeetCode
         {
             string s = "  + 04500E2323ISHIRING";
 
-            int act = question08.MyAtoi2(s);
+            int act = question0008.MyAtoi2(s);
             int except = 0;
             Assert.AreEqual(except, act);
         }
@@ -32,7 +32,7 @@ namespace UnitTestProject.LeetCode
         {
             string s = "   - 04 2  ";
 
-            int act = question08.MyAtoi2(s);
+            int act = question0008.MyAtoi2(s);
             int except = 0;
             Assert.AreEqual(except, act);
         }
@@ -42,7 +42,7 @@ namespace UnitTestProject.LeetCode
         {
             string s = "+2147483648L7EETCODEISHIRING";
 
-            int act = question08.MyAtoi2(s);
+            int act = question0008.MyAtoi2(s);
             int except = 2147483647;
             Assert.AreEqual(except, act);
         }

@@ -11,7 +11,7 @@ namespace UnitTestProject.LeetCode
         public void TestMethod1()
         {
             string s = "III";
-            int act = question13.RomanToInt(s);
+            int act = question0013.RomanToInt(s);
 
             int except = 3;
             Assert.AreEqual(except, act);
@@ -21,7 +21,7 @@ namespace UnitTestProject.LeetCode
         public void TestMethod2()
         {
             string s = "CMLIV";
-            int act = question13.RomanToInt(s);
+            int act = question0013.RomanToInt(s);
 
             int except = 954;
             Assert.AreEqual(except, act);
@@ -31,7 +31,7 @@ namespace UnitTestProject.LeetCode
         public void TestMethod3()
         {
             string s = "LVIII";
-            int act = question13.RomanToInt(s);
+            int act = question0013.RomanToInt(s);
 
             int except = 58;
             Assert.AreEqual(except, act);
@@ -41,7 +41,7 @@ namespace UnitTestProject.LeetCode
         public void TestMethod4()
         {
             string s = "MCMXCIV";
-            int act = question13.RomanToInt(s);
+            int act = question0013.RomanToInt(s);
 
             int except = 1994;
             Assert.AreEqual(except, act);

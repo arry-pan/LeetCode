@@ -9,7 +9,7 @@ namespace Algorithms
     /// <summary>
     /// 13. 罗马数字转整数
     /// </summary>
-    public class question13
+    public class question0013
     {
         public static int RomanToInt(string s)
         {

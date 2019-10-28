@@ -9,7 +9,7 @@ namespace Algorithms
     /// <summary>
     /// 10. 正则表达式匹配
     /// </summary>
-    public class question10
+    public class question0010
     {
         /* 给你一个字符串 s 和一个字符规律 p，请你来实现一个支持 '.' 和 '*' 的正则表达式匹配。
             '.' 匹配任意单个字符

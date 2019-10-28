@@ -9,7 +9,7 @@ namespace Algorithms
     /// <summary>
     /// 12. 整数转罗马数字
     /// </summary>
-    public class question12
+    public class question0012
     {
         public static string IntToRoman(int num)
         {

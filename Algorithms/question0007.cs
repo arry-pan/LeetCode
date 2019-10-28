@@ -26,7 +26,7 @@ namespace Algorithms
     /// <summary>
     /// 
     /// </summary>
-    public class question07
+    public class question0007
     {
         public int Reverse(int x)
         {

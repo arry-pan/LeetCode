@@ -12,7 +12,7 @@ namespace UnitTestProject.LeetCode
         {
             int num = 4;
 
-            string act = question12.IntToRoman2(num);
+            string act = question0012.IntToRoman2(num);
            
             string except = "IV";
             Assert.AreEqual(except, act);
@@ -22,7 +22,7 @@ namespace UnitTestProject.LeetCode
         public void TestMethod2()
         {
             int num = 98;
-            string act = question12.IntToRoman2(num);
+            string act = question0012.IntToRoman2(num);
             string except = "XCVIII";
             Assert.AreEqual(except, act);
         }
@@ -32,7 +32,7 @@ namespace UnitTestProject.LeetCode
         {
             int num = 954;
 
-            string act = question12.IntToRoman2(num);
+            string act = question0012.IntToRoman2(num);
             string except = "CMLIV";
             Assert.AreEqual(except, act);
         }
@@ -42,7 +42,7 @@ namespace UnitTestProject.LeetCode
         {
             int num = 3994;
 
-            string act = question12.IntToRoman2(num);
+            string act = question0012.IntToRoman2(num);
             string except = "MMMCMXCIV";
             Assert.AreEqual(except, act);
         }
