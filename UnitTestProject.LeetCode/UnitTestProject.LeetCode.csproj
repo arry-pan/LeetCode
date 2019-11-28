@@ -59,6 +59,7 @@
     <Compile Include="UnitTest14.cs" />
     <Compile Include="UnitTest15.cs" />
     <Compile Include="UnitTest16.cs" />
+    <Compile Include="UnitTest17.cs" />
     <Compile Include="UnitTest2.cs" />
     <Compile Include="UnitTest3.cs" />
     <Compile Include="UnitTest4.cs" />
