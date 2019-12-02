@@ -60,6 +60,8 @@
     <Compile Include="UnitTest15.cs" />
     <Compile Include="UnitTest16.cs" />
     <Compile Include="UnitTest17.cs" />
+    <Compile Include="UnitTest18.cs" />
+    <Compile Include="UnitTest19.cs" />
     <Compile Include="UnitTest2.cs" />
     <Compile Include="UnitTest3.cs" />
     <Compile Include="UnitTest4.cs" />
